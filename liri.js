@@ -116,7 +116,7 @@ function fireMovie() {
 		userInput = "Mr. Nobody";
 	};
 
-	var queryURL = "http://www.omdbapi.com/?t=" + userInput + "&y=plot=short&apikey=40e9cece";
+	var queryURL = "http://www.omdbapi.com/?t=" + userInput + "&plot=short&apikey=40e9cece";
 
 	request(queryURL, function(error, response, body) {
 		if (error) {
